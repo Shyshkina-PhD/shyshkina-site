@@ -17,7 +17,14 @@ a:hover { opacity: .62; }
 .skip-link { position: absolute; left: -9999px; top: 0; background: #000; color: #fff; padding: .75rem 1rem; z-index: 99; }
 .skip-link:focus { left: 0; }
 .site-header { max-width: var(--max); margin: auto; border-bottom: 1px solid var(--line); position: relative; z-index: 10; background: rgba(255,255,255,.97); }
-.masthead { min-height: 158px; padding: 16px 28px 12px; display: flex; align-items: center; justify-content: space-between; }
+.masthead {
+  min-height: 158px;
+  padding: 16px 28px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 .brand {
   display: inline-flex;
   align-items: flex-end;
