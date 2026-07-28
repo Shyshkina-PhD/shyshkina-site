@@ -167,7 +167,7 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
     flex: 0 0 auto;
     width: clamp(32px, 8vw, 43px);
     height: auto;
-    margin-left: -10px;
+    margin-left: -15px;
     margin-bottom: 0.06em;
     transform: rotate(1deg);
   }
