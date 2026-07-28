@@ -38,7 +38,7 @@ a:hover { opacity: .62; }
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
   column-gap: clamp(48px, 6vw, 110px);
-  align-items: center;
+  align-items: start;
 
   max-width: var(--max);
   min-height: 0;
