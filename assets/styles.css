@@ -30,6 +30,9 @@ a:hover { opacity: .62; }
 .hero {
   column-gap: clamp(48px, 6vw, 110px);
 }
+.hero-copy .eyebrow {
+  margin-bottom: 28px;
+}
 .brand-name {
   position: relative;
   z-index: 2;
