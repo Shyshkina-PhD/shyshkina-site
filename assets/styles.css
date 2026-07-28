@@ -53,7 +53,7 @@ a:hover { opacity: .62; }
 }
 
 .hero-copy .eyebrow {
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .hero-portrait {
@@ -117,7 +117,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: .98; marg
 h1 { font-size: clamp(3.6rem, 7.2vw, 7.4rem); letter-spacing: -.055em; }
 h2 { font-size: clamp(3.1rem, 5vw, 5.4rem); letter-spacing: -.045em; }
 h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
-.lead { font-family: var(--serif); font-size: clamp(1.35rem, 2vw, 2rem); max-width: 750px; margin: 34px 0; color: #34332f; }
+.lead { font-family: var(--serif); font-size: clamp(1.35rem, 2vw, 2rem); max-width: 750px; margin: 24px 0 26px;; color: #34332f; }
 .lead-small { font-family: var(--serif); font-size: 1.65rem; }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .button { padding: 13px 18px; border: 1px solid var(--text); font-size: .86rem; }
