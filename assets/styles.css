@@ -92,7 +92,18 @@ a:hover { opacity: .62; }
   grid-column: 1;
   margin-bottom: 28px;
 }
-.site-nav { min-height: 54px; padding: 0 34px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: flex-end; gap: 32px; font-size: .78rem; text-transform: uppercase; letter-spacing: .1em; }
+.site-nav {
+  min-height: 54px;
+  padding: 0 34px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
 .menu-button { display: none; background: none; border: 0; font: inherit; }
 .section {
   max-width: var(--max);
