@@ -176,6 +176,13 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
   object-fit: cover;
   object-position: center;
 }
+.project-link {
+  display: inline-block;
+  margin-top: 22px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--text);
+  font-size: .86rem;
+}
 .tag-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin-top: 28px; }
 .tag-list li { border: 1px solid var(--line); padding: 7px 10px; font-size: .74rem; border-radius: 100px; }
 .methods-band { background: var(--text); color: #fff; }
