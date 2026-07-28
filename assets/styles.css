@@ -21,7 +21,7 @@ a:hover { opacity: .62; }
 .brand {
   display: inline-flex;
   align-items: flex-end;
-  gap: 2px;
+  gap: 0px;
   max-width: 100%;
   line-height: 0.75;
   color: inherit;
