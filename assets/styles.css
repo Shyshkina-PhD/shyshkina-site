@@ -159,8 +159,10 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
 .project-copy p:not(.project-type) { max-width: 680px; color: #4d4b45; }
 .project-copy h3 { margin: 12px 0 24px; }
 .project-visual {
-  min-height: 0;
   overflow: hidden;
+}
+.project-visual.media-placeholder {
+  min-height: 360px;
 }
 .project-image {
   width: 100%;
