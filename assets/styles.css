@@ -43,7 +43,8 @@ a:hover { opacity: .62; }
   max-width: var(--max);
   min-height: 0;
   margin: auto;
-  padding: 70px 34px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -114,7 +115,14 @@ a:hover { opacity: .62; }
 .section-grid { display: grid; grid-template-columns: 180px minmax(0, 1.15fr) minmax(300px, .85fr); gap: 45px; }
 .eyebrow, .section-label, .project-type { text-transform: uppercase; letter-spacing: .12em; font-size: .7rem; color: var(--muted); }
 h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: .98; margin: 0; }
-h1 { font-size: clamp(3.6rem, 7.2vw, 7.4rem); letter-spacing: -.055em; }
+h1 {
+  font-size: clamp(3.4rem, 6.2vw, 6.5rem);
+  letter-spacing: -.05em;
+}
+.hero h1 {
+  max-width: 760px;
+  line-height: 0.9;
+}
 h2 { font-size: clamp(3.1rem, 5vw, 5.4rem); letter-spacing: -.045em; }
 h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
 .lead { font-family: var(--serif); font-size: clamp(1.35rem, 2vw, 2rem); max-width: 750px; margin: 24px 0 26px;; color: #34332f; }
