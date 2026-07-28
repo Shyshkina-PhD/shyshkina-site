@@ -148,6 +148,13 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
   border-top: 1px solid var(--line);
   align-items: start;
 }
+.projects-section {
+  padding-bottom: 40px;
+}
+
+.projects-section .project:last-child {
+  padding-bottom: 0;
+}
 .project-number { color: var(--muted); }
 .project-copy p:not(.project-type) { max-width: 680px; color: #4d4b45; }
 .project-copy h3 { margin: 12px 0 24px; }
