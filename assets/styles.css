@@ -21,7 +21,7 @@ a:hover { opacity: .62; }
 .brand {
   display: inline-flex;
   align-items: flex-end;
-  gap: -5px;
+  gap: 0px;
   max-width: 100%;
   line-height: 0.75;
   color: inherit;
@@ -39,7 +39,7 @@ a:hover { opacity: .62; }
   flex: 0 0 auto;
   width: clamp(42px, 4.2vw, 64px);
   height: auto;
-  margin-left: -3px;
+  margin-left: -10px;
   margin-bottom: 0.04em;
   transform: rotate(1deg);
 }
