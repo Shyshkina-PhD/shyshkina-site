@@ -263,7 +263,17 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
   .site-header {
     min-height: 0;
   }
+  .yiddish-profile {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
 
+  .section-label {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+  }
+}
   .masthead {
     min-height: auto;
     padding: 18px 20px 14px;
