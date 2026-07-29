@@ -190,16 +190,27 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
   align-items: start;
 }
 
-.section-label {
+.yiddish-label {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
-  color: var(--muted);
-  font-size: 0.76rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
+  white-space: nowrap;
 }
 
+.yiddish-label .label-divider {
+  color: var(--line);
+}
+
+.yiddish-word {
+  font-family: "Times New Roman", serif;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+  unicode-bidi: isolate;
+}
 .section-label [lang="yi"] {
   font-family: "Times New Roman", serif;
   font-size: 1.15rem;
