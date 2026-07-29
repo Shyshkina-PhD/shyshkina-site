@@ -211,6 +211,15 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
   color: var(--text);
   unicode-bidi: isolate;
 }
+.yiddish-title {
+  display: inline-block;
+  margin-inline: 0.18em;
+  font-family: "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1;
+  color: var(--text);
+  unicode-bidi: isolate;
+}
 .section-label [lang="yi"] {
   font-family: "Times New Roman", serif;
   font-size: 1.15rem;
