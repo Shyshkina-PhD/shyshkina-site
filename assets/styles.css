@@ -183,6 +183,39 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
   border-bottom: 1px solid var(--text);
   font-size: .86rem;
 }
+.yiddish-profile {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 760px);
+  gap: 70px;
+  align-items: start;
+}
+
+.section-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-label [lang="yi"] {
+  font-family: "Times New Roman", serif;
+  font-size: 1.15rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.yiddish-profile-content h2 {
+  max-width: 720px;
+  margin: 0 0 28px;
+}
+
+.yiddish-profile-content p {
+  max-width: 700px;
+  margin: 0 0 18px;
+}
 .tag-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin-top: 28px; }
 .tag-list li { border: 1px solid var(--line); padding: 7px 10px; font-size: .74rem; border-radius: 100px; }
 .methods-band { background: var(--text); color: #fff; }
