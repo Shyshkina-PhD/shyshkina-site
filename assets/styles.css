@@ -273,7 +273,6 @@ h3 { font-size: clamp(2rem, 3.2vw, 3.6rem); letter-spacing: -.035em; }
     align-items: baseline;
     gap: 10px;
   }
-}
   .masthead {
     min-height: auto;
     padding: 18px 20px 14px;
